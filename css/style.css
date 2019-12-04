@@ -12,7 +12,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    background-image: url('/img/ice-crem-left.png'), url(/img/ice-cream-center.png), url(/img/ice-cream-right.png);
+    background-image: url(img/ice-crem-left.png), url(img/ice-cream-center.png), url(img/ice-cream-right.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0 100%, 60% 70%, right 200px;
 }
@@ -131,7 +131,7 @@ figure img {
 .delivery-bg {
 
 
-    background-image: url(/img/vanilla.png), url(/img/cherry.png);
+    background-image: url(img/vanilla.png), url(img/cherry.png);
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 100%, 90% 10%;
     display: block;
@@ -228,7 +228,7 @@ section {
     background-color: #E3E6FF;
     width: 100%;
     height: auto;
-    background-image: url(/img/individ-ice.png);
+    background-image: url(img/individ-ice.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
     margin-bottom: 30px;
@@ -306,7 +306,7 @@ label {
     position: absolute;
     width: 16px;
     height: 16px;
-    background-image: url(/img/check.png);
+    background-image: url(img/check.png);
     background-size: contain;
     background-position: center;
     margin-top: 3px;
@@ -314,11 +314,11 @@ label {
 }
 
 .form-check-input:checked+.check-box {
-    background-image: url(/img/checked.png);
+    background-image: url(img/checked.png);
 }
 
 .footer-bg {
-    background-image: url(/img/strawberry.png);
+    background-image: url(img/strawberry.png);
     background-repeat: no-repeat;
     background-position: 0 100%;
     width: 100%;
@@ -395,7 +395,7 @@ li img {
 
 @media screen and (max-width: 980px) {
     .bg {
-        background-image: url(/img/ice-cream-right.png);
+        background-image: url(img/ice-cream-right.png);
         background-repeat: no-repeat;
         background-position: 100% -100%;
         opacity: 0.3;
@@ -448,7 +448,7 @@ li img {
     }
 
     .form {
-        background-image: url(/img/ice-cream-center-right.png);
+        background-image: url(img/ice-cream-center-right.png);
         background-position: 90% 75%;
     }
 
@@ -475,7 +475,7 @@ li img {
     border: none;
     padding: 20px;
     background: none;
-    background-image: url(/img/toggle.png);
+    background-image: url(img/toggle.png);
     background-repeat: no-repeat;
     background-position: center;
     outline: none !important;
@@ -513,7 +513,7 @@ li img {
     border: none;
     padding: 20px;
     background: none;
-    background-image: url(/img/close.png);
+    background-image: url(img/close.png);
     background-repeat: no-repeat;
     background-position: center;
     outline: none !important;
