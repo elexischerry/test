@@ -12,7 +12,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    background-image: url(/img/ice-crem-left.png), url(/img/ice-cream-center.png), url(/img/ice-cream-right.png);
+    background-image: url('/img/ice-crem-left.png'), url(/img/ice-cream-center.png), url(/img/ice-cream-right.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0 100%, 60% 70%, right 200px;
 }
@@ -400,9 +400,11 @@ li img {
         background-position: 100% -100%;
         opacity: 0.3;
     }
-h1{
-    font-size: 24px;
-}
+
+    h1 {
+        font-size: 24px;
+    }
+
     .desctope {
         display: none;
     }
@@ -428,11 +430,11 @@ h1{
         margin-left: 200px;
     }
 
-    .one_ice  {
+    .one_ice {
         width: 300px;
         max-width: 100%;
         margin: 0 auto;
-        
+
     }
 
     .bullet {
@@ -449,25 +451,27 @@ h1{
         background-image: url(/img/ice-cream-center-right.png);
         background-position: 90% 75%;
     }
-.footer  {
-    width: 300px;
+
+    .footer {
+        width: 300px;
         max-width: 100%;
         margin: 0 auto;
-}
-    
+    }
+
     .footer-bg img {
         margin: 10px;
     }
-.more {
-    width: 300px;
-    min-width: 100%;
-    margin: 0 auto;
-}
+
+    .more {
+        width: 300px;
+        min-width: 100%;
+        margin: 0 auto;
+    }
 
 
 }
 
-.burger_btn{
+.burger_btn {
     border: none;
     padding: 20px;
     background: none;
@@ -478,7 +482,7 @@ h1{
     cursor: pointer;
 }
 
-.overlay_right{
+.overlay_right {
     display: none;
     width: 250px;
     position: fixed;
@@ -490,19 +494,22 @@ h1{
     overflow: hidden;
     z-index: 9999999;
 }
-.overlay_right ul{
+
+.overlay_right ul {
     list-style: none;
     margin-top: 30px;
     padding: 0;
 }
-.overlay_right ul li{
+
+.overlay_right ul li {
     margin-bottom: 18px;
 }
-.overlay_right ul li a{
+
+.overlay_right ul li a {
     font-size: 16px;
 }
 
-.close_overlay{
+.close_overlay {
     border: none;
     padding: 20px;
     background: none;
